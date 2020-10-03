@@ -1,0 +1,50 @@
+.btn-primary{
+    background-color: #ff9900;
+    border: 0;
+    padding: 10px 40px 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #ffbd5b;
+    border: 0;
+}
+
+.btn-secon{
+    background-color: none;
+    border: 1px solid #bcd0e5;
+    padding: 10px 40px 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173a56;
+}
+
+.btn-secon:hover{
+    background-color: none;
+    border: 1px solid #82b2e5;
+    color: #173a56;
+}
+
+.hero h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2f281e;
+}
+.hero p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #2f281e;
+}
+.navbar-nav .nav-link{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #2f281e;
+}
+
+@media only screen and (max-width: 768px){
+    .btn-primary, .btn-secon {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
